@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kev.kevmusic.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/the_best"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/music_pad"
+                android:layout_gravity="center_horizontal"
+                android:padding="9dp"/>
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#e4e4e4"
+                android:background="#62000000"
+                android:padding="12dp"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:text="Genres Top collection" />
+
+            <Button
+                android:id="@+id/billboard"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_margin="2dp"
+                android:text="Billbard Charts" />
+
+            <Button
+                android:id="@+id/christian"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Christian and Gospel"
+                android:fontFamily="sans-serif-medium"/>
+
+            <Button
+                android:id="@+id/pop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Pop"
+                android:fontFamily="sans-serif-medium"/>
+
+            <Button
+                android:id="@+id/dance"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Dance"
+                android:fontFamily="sans-serif-medium"/>
+
+            <Button
+                android:id="@+id/country"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Country"/>
+
+            <Button
+                android:id="@+id/electric"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Electric"/>
+
+            <Button
+                android:id="@+id/rock"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Rock"/>
+
+            <Button
+                android:id="@+id/rnb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="RnB/Soul"/>
+
+            <Button
+                android:id="@+id/hiphop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Hip Hop"/>
+
+            <Button
+                android:id="@+id/workout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Workout n Fitness"/>
+
+            <Button
+                android:id="@+id/holiday"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e4e4e4"
+                android:background="#B52B2B2B"
+                android:padding="15dp"
+                android:layout_margin="2dp"
+                android:text="Holiday"/>
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/mother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>
